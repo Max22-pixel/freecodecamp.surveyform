@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1 id="title"> Betta Fish survey</h1>
+    <p id="description">Costumer Betta fish 2021</p>
+    <form id="survey-form">
+        <label for="name" id="name-label">Name</label>
+        <br>
+        <input id="name" type="text"  placeholder="Name" required></input>
+        <br>
+        <label for="email" id="email-label">Email</label>
+        <br>
+        <input id="email" type="email" placeholder="Alamat_Email@.com/co.id " required></input>
+        <br>
+        <label for="number" id="number-label">Age</label>
+        <br>
+        <input id="number" type="number" placeholder="Number" min="10" max="70" required></input>
+        <br>
+        <label for="dropdown" id="province">Province</label><br>
+        <select id="dropdown">
+            <option value="DKI"> DKI Jakarta</option>
+            <option value="Banten"> Banten</option>
+            <option value="Jawa-Barat"> Jawa barat</option>
+            <option value="Jawa-Timur"> Jawa Timur</option>
+            <option value="Jawa-tengah"> Jawa-Tengah</option>
+            <option value="bali"> Bali</option>
+            <option value="Sumatera-selatan"> Sumatera Selatan</option>
+            <option value="sumatera-utara"> Sumatera Utara</option>
+            <option value="Kalimantan-Selatan"> Kalimantan Selatan</option>
+            <option value="Kalimantan-utara"> Kalimantan-Utara</option>
+            <option value="Sulawesi-selatan"> Sulawesi Selatan</option>
+            <option value="sulawesi-utara"> Sulawesi Utara</option>
+        </select>
+        <br>
+        <label><b><u>Type Betta Fish</u></b></label>
+        <br>
+        <input id="Type-fish"type="radio" value="Type-fish" name="Type-fish">
+        <label for="Type-fish">Avatar</label>
+        <br>
+        <input id="Type-fish"type="radio" value="Type-fish" name="Type-fish">
+        <label for="Type-fish">Fancy cooper</label>
+        <br>
+        <input id="Type-fish"type="radio" value="Type-fish" name="Type-fish">
+        <label for="Type-fish">Bluerim</label>
+        <br>
+        <input id="Type-fish"type="radio" value="Type-fish" name="Type-fish">
+        <label for="Type-fish">White scale</label>
+        <br>
+        <input id="Type-fish"type="radio" value="Type-fish" name="Type-fish">
+        <label for="Type-fish">Multicolor</label>
+        <br>
+        <label><b><u>Purchase</u></b></label>
+        <br>
+        <input id="checkbox" type="checkbox" value="autopilot">
+        <label for="checkbox">1</label>
+        <input id="checkbox" type="checkbox" value="autopilot">
+        <label for="checkbox">2</label>
+        <input id="checkbox" type="checkbox" value="autopilot">
+        <label for="checkbox">3</label>
+        <input id="checkbox" type="checkbox" value="autopilot">
+        <label for="checkbox">4</label>
+        <input id="checkbox" type="checkbox" value="autopilot">
+        <label for="checkbox"> more than 4</label>
+        <br>
+        <label>Feedback</label>
+        <br>
+        <textarea id="textarea" rows="4" cols="30">
+        </textarea>
+        <br>
+        <input id="submit" type="submit">
+    </form>
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+  </body>
+  <style>
+body{
+    background-color: rgba(230, 221, 221, 0.726);
+    width: 1350px;
+    height: 800px;
+}
+#title{
+    text-align: center;
+    margin-bottom: 0;
+    }
+    p{
+        text-align: center;
+        margin-bottom: 0;
+        margin-top: 10px;
+    }
+#survey-form{
+    background-color: rgba(235, 228, 228, 0.685);
+    width: 300px;
+    height: 600px;
+    display: block;
+    margin: auto;
+    padding-left: 40px;
+    padding-right: 40px;
+    border-radius: 2%;
+    padding-top: 10px;
+
+}
+#name {
+    width:20em;
+    height: 22px;
+    margin-bottom: 10px;
+}
+#email{
+    width:20em;
+    height: 22px;
+    margin-bottom: 10px;
+}
+#number{
+    width:20em;
+    height: 22px;
+    margin-bottom: 10px;
+}
+#dropdown{
+    width:20em;
+    height: 25px;
+    margin-bottom: 10px;
+}
+#checkbox{
+    margin-bottom: 20px;
+}
+#textarea{
+    margin-bottom: 20px;
+    width: 20em;
+    
+}
+#submit{
+    background-color: royalblue;
+    color: seashell;
+    height: 30px;
+    width: 100px;
+}
+#submit:hover{
+    background-color: seashell;
+    color: royalblue;
+}
+  </style>
+</html>

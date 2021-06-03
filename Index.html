@@ -5,10 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
   </head>
   <body>
     <h1 id="title"> Betta Fish survey</h1>
-    <p id="description">Costumer Betta fish 2021</p>
+    <p id="description"><b>Costumer Betta fish 2021</b></p>
     <form id="survey-form">
         <label for="name" id="name-label">Name</label>
         <br>
@@ -55,6 +56,7 @@
         <input id="Type-fish"type="radio" value="Type-fish" name="Type-fish">
         <label for="Type-fish">Multicolor</label>
         <br>
+        <div class="purchase">
         <label><b><u>Purchase</u></b></label>
         <br>
         <input id="checkbox" type="checkbox" value="autopilot">
@@ -67,6 +69,7 @@
         <label for="checkbox">4</label>
         <input id="checkbox" type="checkbox" value="autopilot">
         <label for="checkbox"> more than 4</label>
+        </div>
         <br>
         <label>Feedback</label>
         <br>
@@ -77,70 +80,4 @@
     </form>
     <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
   </body>
-  <style>
-body{
-    background-color: rgba(230, 221, 221, 0);
-    width: 1350px;
-    height: 800px;
-}
-#title{
-    text-align: center;
-    margin-bottom: 0;
-    }
-    p{
-        text-align: center;
-        margin-bottom: 0;
-        margin-top: 10px;
-    }
-#survey-form{
-    background-color: rgb(235, 228, 228);
-    width: 300px;
-    height: 600px;
-    display: block;
-    margin: auto;
-    padding-left: 40px;
-    padding-right: 40px;
-    border-radius: 2%;
-    padding-top: 10px;
-
-}
-#name {
-    width:20em;
-    height: 22px;
-    margin-bottom: 10px;
-}
-#email{
-    width:20em;
-    height: 22px;
-    margin-bottom: 10px;
-}
-#number{
-    width:20em;
-    height: 22px;
-    margin-bottom: 10px;
-}
-#dropdown{
-    width:20em;
-    height: 25px;
-    margin-bottom: 10px;
-}
-#checkbox{
-    margin-bottom: 20px;
-}
-#textarea{
-    margin-bottom: 20px;
-    width: 20em;
-    
-}
-#submit{
-    background-color: royalblue;
-    color: seashell;
-    height: 30px;
-    width: 100px;
-}
-#submit:hover{
-    background-color: seashell;
-    color: royalblue;
-}
-  </style>
 </html>
